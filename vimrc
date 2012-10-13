@@ -51,7 +51,7 @@ set list listchars=eol:\ ,tab:>-,trail:.,extends:>,nbsp:_
 syntax spell toplevel
 
 " Auto number... 
-"set nu
+set nu
 "set relativenumber
 
 set modeline
@@ -59,14 +59,13 @@ set modeline
 " zones for latex
 
 syn region texZone start="\\begin{.*code}" end="\\end{.*code}\|%stopzone\>"   contains=@Spell
+syn region texZone start="\\begin{minted}" end="\\end{minted}\|%stopzone\>"   contains=@Spell
 
 " autoindent is evil
 set noai
 
 " Makes buffers not need to be saved when hidden.  Use with care.
 set hidden
-" set visualbell
-" set digraph
 
 " set cursorline cursorcolumn
 
@@ -77,9 +76,6 @@ vnoremap / /\v
 " Save files when focus is lost.
 au FocusLost * :wa
 
-" Racket mode
-
-
 " rainbow parens!
 " using kien's version on github
 "
@@ -88,4 +84,3 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-
