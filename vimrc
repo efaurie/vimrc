@@ -44,7 +44,7 @@ let g:tex_flavor='latex'
 
 set title
 set background=dark
-colorscheme torte
+colorscheme peachpuff
 set guifont=Inconsolata\ Medium\ 14 
 
 " Make trailing whitespace visible
