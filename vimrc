@@ -85,3 +85,7 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+" turn on neocompletecache
+
+let g:neocomplcache_enable_at_startup = 1
