@@ -7,7 +7,9 @@ with that in mind.  I tend to avoid plugins until I am sure they are useful.
 
 + Clone the repository.  You should back up your old .vim folder first.
 
+    ```
     git clone https://mattoxbeckman@bitbucket.org/mattoxbeckman/vimrc.git ~/.vim
+    ```
 
 + Clone Vundle
 
