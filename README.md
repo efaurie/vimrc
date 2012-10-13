@@ -13,14 +13,27 @@ with that in mind.  I tend to avoid plugins until I am sure they are useful.
 
 + Clone Vundle
 
+    ```
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    ```
 
 + Create a soft-link to the `.vimrc` file:
 
+    ```
     ln -s ~/.vim/vimrc ~/.vimrc
+    ```
 
 + Optional: install the Inconsolata font, otherwise, comment out that line in the vimrc file.
 
+    ```
    "set guifont=Inconsolata\ Medium\ 14 
+    ```
 
 + Start vim!
+
+## Included Bundles
+
+1. Rainbow Parens
+2. Racket Mode
+3. Vim Fugitive for working with git
+4. Paredit for lispy parens editing
