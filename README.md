@@ -29,7 +29,11 @@ with that in mind.  I tend to avoid plugins until I am sure they are useful.
    "set guifont=Inconsolata\ Medium\ 14 
     ```
 
-+ Start vim!
++ Start vim and run the bundle installer
+
+    ```
+    :BundleInstall
+    ```
 
 ## Included Bundles
 

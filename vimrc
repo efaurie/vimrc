@@ -10,6 +10,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'wlangstroth/vim-racket'
 Bundle 'vim-scripts/paredit.vim'
+Bundle 'Shougo/neocomplcache'
 
 " Plugin indent
 filetype plugin indent on
