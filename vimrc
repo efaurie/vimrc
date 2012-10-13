@@ -11,6 +11,7 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'wlangstroth/vim-racket'
 Bundle 'vim-scripts/paredit.vim'
 Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplcache-snippets-complete'
 
 " Plugin indent
 filetype plugin indent on
@@ -89,3 +90,9 @@ au Syntax * RainbowParenthesesLoadBraces
 " turn on neocompletecache
 
 let g:neocomplcache_enable_at_startup = 1
+
+" Snippets
+
+imap <C-k>     <Plug>(neocomplcache_snippets_expand)
+smap <C-k>     <Plug>(neocomplcache_snippets_expand)
+
